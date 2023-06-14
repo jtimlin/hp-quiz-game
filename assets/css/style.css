@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@300&display=swap');
+
+:root {
+    background-color: #2B3236;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ysabeau', sans-serif;
+    color: #3a3939;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 3em;
+    color: #B78C77;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+#home {
+    border: 1px solid red;
+    background-image: ../assets/images/background.jpg;
+}
