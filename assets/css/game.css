@@ -5,10 +5,69 @@
     border-radius: 6px;
     background-color: #2B3236;
     font-size: 3rem;
-    min-width: 80rem;
 }
 
 .answer-box:hover {
     cursor: pointer;
-    box-shadow: 0px 0px 19px -3px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 19px -3px rgba(183, 124, 119, 0.8);
 }
+
+#game {
+    background: url('../images/magic-background.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    max-width: 80rem;
+    max-height: 80rem;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0px 0px 19px -3px rgba(183, 124, 119, 0.8);
+}
+
+.correct {
+    background: linear-gradient(32deg, green);
+}
+
+.incorrect {
+    background: linear-gradient(32deg red);
+}
+
+/* Heads up display */
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+#progressBar {
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid green;
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progressBarFull {
+    height: 100%;
+    background: green;
+    width: 0%;
+}
+
+/* 
+@media screen and (max-width: 768px) {
+    .answer-box {
+        min-width: 40rem;
+    }
+}
+*/
