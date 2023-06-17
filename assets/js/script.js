@@ -138,8 +138,46 @@ getNewQuestion = () => {
     question.innerText = currentQuestion.question;
 
     /* Update choices */
-    choises.forEach(choise => {
-        const number = choise.dataset['number'];
-        choise.innerText = currentQuestion['choice' + number]
-    })
+    choices.forEach(choice => {
+        const number = choice.dataset['number'];
+        choice.innerText = currentQuestion['choice' + number];
+    });
+
+    availableQuestions.splice{ questionsIndex, 1; };
+
+    acceptingAnswers = true;
 };
+
+/* When the user clicks on a choice, the code inside the event listener function is executed.
+ if the acceptingAnswers variable is false. Code immediately returns and does not proceed further.
+ This check is used to prevent multiple answer submissions or clicks while processing the current question.
+ */
+
+choices.forEach(choice => {
+    choice.addEventListener('click', e => {
+        if (!acceptingAnswers) return;
+
+        acceptingAnswers = false;
+        const selectedChoice = e.target;
+        const selectedAnswer = selectedChoice.dataset['number'];
+
+        /* Checks answer is correct and increments SCORE_POINTS when user selects correct answer */
+        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
+
+        if (classToApply === 'correct') {
+            incrementScore(SCORE_POINTS);
+        }
+
+        /* Applies a visual effect to indicate whether the user's answer was correct or incorrect and calls
+        the getNewQuestion function. */
+        selectedChoice.parentElement.classList.add(classToApply);
+
+        setTimeout(() => {
+            selectedChoice.parentElement.classList.remove(classToApply);
+            getNewQuestion();
+
+        }, 1000);
+    });
+});
+
+48: 05;
