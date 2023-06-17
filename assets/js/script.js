@@ -1,3 +1,6 @@
+/* Variables that reference specific HTML elements in the document.
+These variables can be used later in the code to interact with or
+update the content and appearance of those elements. */
 const question = document.querySelector('#question');
 const choises = Array.from(document.querySelectorAll('.answer-text'));
 const progressText = document.querySelector('#progressText');
@@ -10,6 +13,7 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
+/* Quiz Questions */
 let questions = [
     {
         question: "What is the full name of Hogwarts' headmaster?",
@@ -100,6 +104,9 @@ let questions = [
 const SCORE_POINTS = 100;
 const MAX_QUESTIONS = 6;
 
+/**
+ * To start the game
+ */
 startGame = () => {
     questionCounter = 0;
     score = 0;
@@ -107,24 +114,32 @@ startGame = () => {
     getNewQuestion();
 };
 
+/**
+ * Function that retrieves a new question, updates the question counter
+ * and progress bar, and updates the UI with the new question and choices.
+ */
 getNewQuestion = () => {
+    /* Condition check if either the availableQuestions array 
+    is empty or the questionCounter exceeds the MAX_QUESTIONS limit.*/
     if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
 
         return window.localStorage.assign('/end.html');
     };
 
+    /* Increment counter and update progressBar */
     questionCounter++;
     progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`;
-    progressBarFull.style.width = `${questionCounter / MAX_QUESTIONS) * 100;
-}% `;
+    progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
-    const questionIndex = Math.floor(Math.random() * availableQuestions.length);
+    /* Select a random question from availableQuestions array */
+    const questionsIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionsIndex];
     question.innerText = currentQuestion.question;
 
+    /* Update choices */
     choises.forEach(choise => {
         const number = choise.dataset['number'];
-        choice.innerText = currentQuestion['choice' + number]
+        choise.innerText = currentQuestion['choice' + number]
     })
 };
