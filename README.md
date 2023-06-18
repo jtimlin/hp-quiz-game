@@ -106,19 +106,14 @@ Highscores page is
 
 ### Future Features:
 
-- Gallery.
-- More product information (glass roofs and sun blinds)
-- Better navigation for mobile users. (css hamburger menu)
+- Background music.
+- Ability to change difficulty.
 
 ## Testing
-
-I had a problem getting the background image of the index page in the right place. For some reason, there was a gap above the picture. I changed the whole nav section to flexboxes and the problem was solved.
 
 I ran the html files through the validator and got an error code that I had used the same id twice. Changing it to a class fixed the problem.
 
 I also ran the css file through the W3C validator and it was flawless.
-
-The media inquiries turned out to be difficult when I had first made the appearance of the pages suitable for desktop. It should definitely have been made suitable for mobile phones first. The solution to this, however, turned out to be flexboxes. The menu works now, but it could be changed to be more suitable for mobile phones by using a hamburger-style menu.
 
 - The website was constantly tested during development using Chrome dev tools.
 - Tested all links on all pages.
@@ -141,7 +136,6 @@ The media inquiries turned out to be difficult when I had first made the appeara
 
 - Navigation menu for mobile users can be better.
 - Footer for mobile users can be better.
-- There is no ALT text to images in products page. They are background images so its not possible to add it directly to the picture.
 
 ## Technologies Used
 
@@ -149,12 +143,13 @@ The media inquiries turned out to be difficult when I had first made the appeara
 
 - HTML5
 - CSS3
+- JAVASCRIPT
 
 ### Frameworks, Libraries & Programs Used
 
 - Google Fonts - for the font families: Special Elite, Raleway & Cabin Sketch. San-serif was used as a default font.
-- Font Awesome - to add icons to the social links in the footer element.
-- Codeanywhere - to creat my html files & styling sheet before pushing the project to Github.
+- Font Awesome - to add icons.
+- Codeanywhere - to creat my html files, styling sheet and javascript before pushing the project to Github.
 - GitHub - to store my repository for submission.
 - Devtools - to ensure the project looked good across all devices.
 - Favicon.io - for the favicon.
@@ -169,7 +164,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 ### How to Fork it
 
-1. On GitHub, go to [jindah/sodering](https://github.com/jindah/sodering).
+1. On GitHub, go to [jindah/hp-quiz-game](https://github.com/jindah/hp-quiz-game).
 2. In the top right, click "Fork".
 
 ### How to Clone it
@@ -184,7 +179,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 ### Making a Local Clone
 
-1. Locate the [Repository](https://github.com/jindah/sodering).
+1. Locate the [Repository](https://github.com/jindah/hp-quiz-game).
 2. Click "Code".
 3. Click Clone or Download.
 4. Copy the Git URL from the dialogue box.
@@ -197,7 +192,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 ### Content
 
-All text content comes from sodering current website https://www.sodering.se.
+https://youtu.be/f4fB9Xg2JEY Quiz tutorial video by Brian Design on YouTube
 
 For the colouring: <http://colormind.io/>
 Box shadow code: <https://getcssscan.com/css-box-shadow-examples>
@@ -205,9 +200,5 @@ Favicon: <https://favicon.io>
 
 ### Media
 
-These two images came from Sodering current website https://www.sodering.se.
-
-- installation_image.jpg at contact page. Photo by John Puolitaival.
-- balcony_glazing_1.jpg at products page. Photo by John Puolitaival.
-
-All the other images on the web page comes from their product supplier "Malmerk klaasium" <https://malmerkklaasium.ee/sv/>
+Quiz background image comes from unsplash.com:
+https://unsplash.com/photos/3n7DdlkMfEg and is by: Artem Maltsev
