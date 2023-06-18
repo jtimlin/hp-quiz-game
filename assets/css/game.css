@@ -26,11 +26,12 @@
 }
 
 .correct {
-    background: linear-gradient(32deg, green);
+    background: linear-gradient(32deg, rgba(6, 77, 36) 0%, rgb(25, 185, 25) 100%);
 }
 
 .incorrect {
-    background: linear-gradient(32deg red);
+    background-color: red;
+    /* background: linear-gradient(32deg rgba(182, 57, 57, 0.849), rgb(241, 35, 41, 1) 100%); */
 }
 
 /* Heads up display */
