@@ -2,6 +2,10 @@ body {
     color: #2B3236;
 }
 
+.question-container {
+    padding: 2rem 2.5rem;
+}
+
 .answer-box {
     display: flex;
     margin-bottom: 0.8rem;
@@ -46,7 +50,7 @@ body {
 }
 
 .incorrect {
-    background: linear-gradient(32deg, rgb(182, 57, 57, 1) 0%, rgb(241, 35, 41, 1) 100%);
+    background: linear-gradient(32deg, rgb(90, 24, 24) 0%, rgb(241, 35, 41, 1) 100%);
 }
 
 /* Heads up display */

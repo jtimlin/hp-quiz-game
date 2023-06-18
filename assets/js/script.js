@@ -116,7 +116,7 @@ let questions = [
 ];
 
 const SCORE_POINTS = 100;
-const MAX_QUESTIONS = 6;
+const MAX_QUESTIONS = 8;
 
 /**
  * To start the game
@@ -194,3 +194,9 @@ choices.forEach(choice => {
     });
 });
 
+incrementScore = num => {
+    score += num;
+    scoreText.innerText = score;
+};
+
+startGame();
