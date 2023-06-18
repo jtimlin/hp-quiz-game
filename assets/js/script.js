@@ -194,6 +194,7 @@ choices.forEach(choice => {
     });
 });
 
+/* Increases score counting */
 incrementScore = num => {
     score += num;
     scoreText.innerText = score;

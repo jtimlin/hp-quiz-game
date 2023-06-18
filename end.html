@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="home" class="flex-center flex-column">
+            <h1 id="finalScore">0</h1>
+            <form class="end-form-container">
+                <h2 id="end-text">Enter your name below to save your score!</h2>
+                <input type="text" name="name" id="username" placeholder="Enter your name">
+                <button class="button button-default" id="saveScoreBtn" type="submit"
+                    onclick="saveHighScore(event) disabled">Save <i class="fa-solid fa-floppy-disk"></i></button>
+            </form>
+            <a href="quiz.html" class="button button-default">Play Again <i class="fa-solid fa-wand-sparkles"></i></a>
+            <a href="index.html" class="button button-default">Go Home <i class="fa-solid fa-home"></i></a>
+        </div>
+    </div>
+
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/7f781ed379.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
