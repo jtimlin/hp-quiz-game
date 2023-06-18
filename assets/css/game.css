@@ -1,3 +1,7 @@
+body {
+    color: #2B3236;
+}
+
 .answer-box {
     display: flex;
     margin-bottom: 0.8rem;
@@ -10,6 +14,18 @@
 .answer-box:hover {
     cursor: pointer;
     box-shadow: 0px 0px 19px -3px rgba(183, 124, 119, 0.8);
+    transform: scale(1.02);
+    transform: transform 100ms;
+}
+
+.answer {
+    padding: 2rem 2.5rem;
+    color: white;
+}
+
+.answer-text {
+    padding: 2rem;
+    width: 100%;
 }
 
 #game {
@@ -30,8 +46,7 @@
 }
 
 .incorrect {
-    background-color: red;
-    /* background: linear-gradient(32deg rgba(182, 57, 57, 0.849), rgb(241, 35, 41, 1) 100%); */
+    background: linear-gradient(32deg, rgb(182, 57, 57, 1) 0%, rgb(241, 35, 41, 1) 100%);
 }
 
 /* Heads up display */
