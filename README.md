@@ -4,7 +4,7 @@ This project serves as Portfolio Project #2 for Code Institute.
 
 ![Site view across devices](/assets/images-readme/devices-layout.png)
 
-Link to live website can be found [HERE](https://jindah.github.io/sodering/)
+Link to live website can be found [HERE](https://jindah.github.io/hp-quiz-game/)
 
 ## Tabel of Contents
 
@@ -23,11 +23,9 @@ Link to live website can be found [HERE](https://jindah.github.io/sodering/)
     - [Imagery:](#imagery)
   - [Features](#features)
     - [Existing Features](#existing-features)
-      - [Navigation bar:](#navigation-bar)
       - [Landing Page:](#landing-page)
       - [Quiz Page:](#quiz-page)
       - [Highscores Page:](#highscores-page)
-      - [Social Links:](#social-links)
     - [Future Features:](#future-features)
   - [Testing](#testing)
     - [Validator Testing](#validator-testing)
@@ -77,57 +75,34 @@ Colorming.io was utilized to create a color palette with excellent contrast and 
 
 ### Typography:
 
-Taviraj was selected for the main heading on each of the pages, accompanied by Josefin Sans and Economica from Google fonts.
+Ysabeau was selected for the typography of the pages from Google fonts.
 
 ### Imagery:
 
-A significant portion of the imagery on the website was sourced from the homepage of company's product suppliers, Malmerkklaasium. Specifically, two of the pictures are taken from the current homepage of Sodering. Credits can be found at the bottom of the readme.
+Quiz background image comes from unsplash.com:
+https://unsplash.com/photos/3n7DdlkMfEg and is by: Artem Maltsev
 
 ## Features
 
 ### Existing Features
 
-#### Navigation bar:
-
-this is included across all three pages, and provides people with an easy reference to navigate between the 'Home', 'Products' & 'Contact' pages.
-
-![Navigation bar](/assets/images-readme/navigation-bar.png)
-
 #### Landing Page:
 
-This defines the feel of the website, providing the user with an image that they can easily associate to what the company is & does.
+This defines the feel of the game, providing the user with an image that they can easily associate to what the quiz is about.
 
 ![Hero image](/assets/images-readme/home-heroimage.jpg)
 
-The About section is listed right beneath the Hero Image, to provide more clarity on the company, and give a better feel to who & what it is.
+#### Quiz Page:
 
-![About us](/assets/images-readme/home-aboutus.png)
-
-#### Products Page:
-
-First section of products page is about balcony glazing. This section includes a video of the product.
+Quiz page has
 
 ![Balcony glazing card](/assets/images-readme/balcony-glazing.png)
 
-Next on this page is a section about terrace glazing.
+#### Highscores Page:
 
-![Terrace glazing card](/assets/images-readme/terrace-glazing.png)
-
-#### Contact Page:
-
-First on the contact page is contact information with telephone and email.
+Highscores page is
 
 ![Contact information](/assets/images-readme/contact.png)
-
-If users wish to get in touch with the company, they have the option to use the contact form instead. Additionally, social media links can also be found within the contact form for further engagement. A 'form dump' page has also been included to the project.
-
-![Contact form](/assets/images-readme/form.png)
-
-#### Social Links:
-
-Links to the companies social media pages can be found on the bottom of each page, & each one will take the user to the social media platform being references.
-
-![Social Links](/assets/images-readme/footer.png)
 
 ### Future Features:
 
