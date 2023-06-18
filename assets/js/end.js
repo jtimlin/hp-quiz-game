@@ -23,8 +23,13 @@ username.addEventListener('keyup', () => {
 /**
  * Gets username and score and push them to highScores array.
  * Array is sorted with the sort metod to descending order.
+ * 
+ * If the number of high scores exceeds the MAX_HIGH_SCORES the
+ * extra scores are removed using the splice method.
+ * 
  * The updated highScores array is stored in the localStorage
  * after converting it to a string using JSON.stringify.
+ * 
  * Finally, the window location is redirected to the root URL ("/").
  */
 saveHighScore = e => {
