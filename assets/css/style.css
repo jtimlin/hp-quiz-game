@@ -34,17 +34,17 @@ h2 {
     padding: 2rem;
 }
 
-.flex-column {
+.flexColumn {
     display: flex;
     flex-direction: column;
 }
 
-.flex-center {
+.flexCenter {
     justify-content: center;
     align-items: center;
 }
 
-.justify-center {
+.justifyCenter {
     justify-content: center;
 }
 
@@ -78,13 +78,13 @@ h2 {
 }
 
 /* Default Button */
-.button-default {
+.buttonDefault {
     color: #ffffff;
     background-color: #2B3236;
 }
 
 /* Hover Effect */
-.button-default:hover {
+.buttonDefault:hover {
     background-color: #75929e;
 }
 
@@ -94,7 +94,7 @@ h2 {
 }
 
 /* End page CSS */
-.end-form-container {
+.endFormContainer {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -117,7 +117,7 @@ input {
     outline: none;
 }
 
-#end-text {
+#endText {
     font-size: 2.4rem;
     color: #94928C;
     text-align: center;
@@ -127,7 +127,7 @@ input {
     border: none;
 }
 
-.fa-home {
+.faHome {
     margin-left: 1rem;
     font-size: 2rem;
     color: #2B3236;

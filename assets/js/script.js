@@ -2,7 +2,7 @@
 These variables can be used later in the code to interact with or
 update the content and appearance of those elements. */
 const question = document.querySelector('#question');
-const choices = Array.from(document.querySelectorAll('.answer-text'));
+const choices = Array.from(document.querySelectorAll('.answerText'));
 const progressText = document.querySelector('#progressText');
 const scoreText = document.querySelector('#score');
 const progressBarFull = document.querySelector('#progressBarFull');
