@@ -7,6 +7,7 @@ const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
  * and then assigns the resulting HTML string to the innerHTML
  * property of the highScoresList element
  */
+
 highScoresList.innerHTML =
     highScores.map(score => {
         return `<li class="highScore">${score.name} - ${score.score}</li>`;
