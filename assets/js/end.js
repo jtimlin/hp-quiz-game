@@ -30,7 +30,7 @@ username.addEventListener('keyup', () => {
  * The updated highScores array is stored in the localStorage
  * after converting it to a string using JSON.stringify.
  * 
- * Finally, the window location is redirected to the root URL ("/").
+ * Finally, the window location is redirected to the root URL ("highscores.html").
  */
 saveHighScore = e => {
     e.preventDefault();
