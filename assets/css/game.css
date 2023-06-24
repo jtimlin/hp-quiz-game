@@ -129,3 +129,40 @@ body {
         width: 100%;
     }
 }
+
+@media screen and (max-width: 480px) {
+
+    #game {
+        min-width: 30rem;
+        padding: 5px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .answerBox {
+        min-width: 29rem;
+    }
+
+    .questionContainer h2 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .questionContainer h1 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .answer {
+        font-size: 2rem;
+        padding: 1rem 1.5rem;
+        color: white;
+    }
+
+    .answerText {
+        font-size: 2rem;
+        padding: 1rem;
+        width: 100%;
+    }
+
+}
