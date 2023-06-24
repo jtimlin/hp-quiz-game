@@ -144,6 +144,9 @@ My doughter is a huge Harry Potter fan. She has been testing this quiz and gave 
   ![JSHint on highscores.js](/assets/images-readme/jshint-highscores.png)
   ![JSHint on end.js](/assets/images-readme/jshint-end.png)
 
+- page has an excellent Accessibility rating in Lighthouse
+  ![Accessibility score](/assets/images-readme/lighthouse.png)
+
 ### Unfixed Bugs
 
 - No known bugs.
