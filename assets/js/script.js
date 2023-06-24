@@ -13,8 +13,6 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
-console.log("JavaScript loaded");
-
 /* Quiz Questions */
 let questions = [
     {
