@@ -91,7 +91,7 @@ https://unsplash.com/photos/3n7DdlkMfEg and is by: Artem Maltsev
 
 This defines the feel of the game, providing the user with an image that they can easily associate to what the quiz is about.
 
-![Landing page](/assets/images-readme/index.jpg)
+![Landing page](/assets/images-readme/index.png)
 
 #### Quiz Page:
 
