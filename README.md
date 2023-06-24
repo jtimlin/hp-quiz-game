@@ -158,7 +158,7 @@ My doughter is a huge Harry Potter fan. She has been testing this quiz and gave 
 
 ### Frameworks, Libraries & Programs Used
 
-- Google Fonts - for the font families: Special Elite, Raleway & Cabin Sketch. San-serif was used as a default font.
+- Google Fonts - for the font family: Ysabeau. San-serif was used as a default font.
 - Font Awesome - to add icons.
 - Codeanywhere - to creat my html files, styling sheet and javascript before pushing the project to Github.
 - GitHub - to store my repository for submission.
