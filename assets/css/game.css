@@ -130,7 +130,11 @@ body {
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 320px) {
+
+    #hud {
+        margin-bottom: -5.5rem;
+    }
 
     #game {
         min-width: 30rem;
@@ -145,7 +149,7 @@ body {
 
     .questionContainer h2 {
         font-size: 2rem;
-        margin-bottom: 2rem;
+        margin-bottom: 0rem;
     }
 
     .questionContainer h1 {
