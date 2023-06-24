@@ -91,10 +91,6 @@ h2 {
     background-color: #75929e;
 }
 
-.buttonDefault(disabled):hover {
-    cursor: not-allowed;
-    transition: none;
-}
 
 /* End page CSS */
 .endFormContainer {
