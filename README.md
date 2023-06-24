@@ -25,6 +25,7 @@ Link to live website can be found [HERE](https://jindah.github.io/hp-quiz-game/)
     - [Existing Features](#existing-features)
       - [Landing Page:](#landing-page)
       - [Quiz Page:](#quiz-page)
+      - [Game Over Page:](#game-over-page)
       - [Highscores Page:](#highscores-page)
     - [Future Features:](#future-features)
   - [Testing](#testing)
@@ -90,19 +91,25 @@ https://unsplash.com/photos/3n7DdlkMfEg and is by: Artem Maltsev
 
 This defines the feel of the game, providing the user with an image that they can easily associate to what the quiz is about.
 
-![Hero image](/assets/images-readme/home-heroimage.jpg)
+![Landing page](/assets/images-readme/index.jpg)
 
 #### Quiz Page:
 
-Quiz page has
+The quiz page is designed to be informative, easily comprehensible, and enjoyable to participate in.
 
-![Balcony glazing card](/assets/images-readme/balcony-glazing.png)
+![Quiz game](/assets/images-readme/quiz.png)
+
+#### Game Over Page:
+
+At the end of the quiz user will be able to start over or save your score.
+
+![Game over](/assets/images-readme/end.png)
 
 #### Highscores Page:
 
-Highscores page is
+Highscores page shows top 5 saved scores and player names.
 
-![Contact information](/assets/images-readme/contact.png)
+![Highscores](/assets/images-readme/highscores.png)
 
 ### Future Features:
 
@@ -111,15 +118,17 @@ Highscores page is
 
 ## Testing
 
-I ran the html files through the validator and got an error code that I had used the same id twice. Changing it to a class fixed the problem.
+CSS on the main style.css file gave me error: 94 Parsningsfel [ .buttonDefault(disabled):hover]. I didnt get it to work so i removed it. Save button doesnt do anything anyways if there is no input on "enter your name" field.
+
+I ran the html files through the validator and got no errors.
 
 I also ran the css file through the W3C validator and it was flawless.
 
 - The website was constantly tested during development using Chrome dev tools.
 - Tested all links on all pages.
-- Verified that the contact form cannot be submitted without the required information (First Name, Last Name, Email and Message)
 - Tested the site opens in Chrome, Safari and Microsoft Edge without issues.
-- All links open to external pages as intended.
+
+My doughter is a huge Harry Potter fan. She has been testing this quiz and gave me: ?/10 points.
 
 ### Validator Testing
 
@@ -130,14 +139,14 @@ I also ran the css file through the W3C validator and it was flawless.
   ![Jigsaw validator message](/assets/images-readme/validator-css.png)
 
 - No errors where found by the official JSHint validator
+
   ![JSHint on script.js](/assets/images-readme/jshint-script.png)
   ![JSHint on highscores.js](/assets/images-readme/jshint-highscores.png)
   ![JSHint on end.js](/assets/images-readme/jshint-end.png)
 
 ### Unfixed Bugs
 
-- Navigation menu for mobile users can be better.
-- Footer for mobile users can be better.
+- No known bugs.
 
 ## Technologies Used
 
@@ -194,7 +203,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 ### Content
 
-Base code from: https://youtu.be/f4fB9Xg2JEY Quiz tutorial video by Brian Design on YouTube
+Base code from: https://youtu.be/f4fB9Xg2JEY Quiz tutorial video by Brian Design on Y.ouTube
 
 For the colouring: <http://colormind.io/>
 Box shadow code: <https://getcssscan.com/css-box-shadow-examples>
