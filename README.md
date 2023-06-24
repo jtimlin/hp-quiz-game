@@ -206,10 +206,12 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 ### Content
 
-Base code from: https://youtu.be/f4fB9Xg2JEY Quiz tutorial video by Brian Design on Y.ouTube
+Base code from: https://youtu.be/f4fB9Xg2JEY Quiz tutorial video by Brian Design on YouTube.
 
 For the colouring: <http://colormind.io/>
+
 Box shadow code: <https://getcssscan.com/css-box-shadow-examples>
+
 Favicon: <https://favicon.io>
 
 ### Media
