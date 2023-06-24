@@ -129,8 +129,10 @@ I also ran the css file through the W3C validator and it was flawless.
 - CSS files pass through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues found.
   ![Jigsaw validator message](/assets/images-readme/validator-css.png)
 
-- page has an excellent Accessibility rating in Lighthouse
-  ![Accessibility score](/assets/images-readme/accessibility-score.png)
+- No errors where found by the official JSHint validator
+  ![JSHint on script.js](/assets/images-readme/jshint-script.png)
+  ![JSHint on highscores.js](/assets/images-readme/jshint-highscores.png)
+  ![JSHint on end.js](/assets/images-readme/jshint-end.png)
 
 ### Unfixed Bugs
 
