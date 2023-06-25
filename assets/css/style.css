@@ -125,8 +125,6 @@ input {
     border: none;
 }
 
-/* High Scores CSS */
-
 @media screen and (max-width: 768px) {
 
     h2 {
@@ -140,4 +138,12 @@ input {
     .button {
         font-size: 2.2rem;
     }
+}
+
+@media screen and (max-width: 320px) {
+
+    #finalScore {
+        margin-bottom: 0;
+    }
+
 }
