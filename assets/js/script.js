@@ -36,7 +36,7 @@ let questions = [
         choice1: "Secret History",
         choice2: "The Mysteries of Growing Plants",
         choice3: "Auntie's Magical Recipes",
-        choice4: "The Monster Book",
+        choice4: "Moste Potente Potions",
         answer: 4,
     },
     {
@@ -84,14 +84,14 @@ let questions = [
         choice1: "Death's Challenge",
         choice2: "Dragon's Challenge",
         choice3: "Gargoyle's Challenge",
-        choice4: "Ghost's Challenge",
-        answer: 2,
+        choice4: "Keys' Challenge",
+        answer: 4,
     },
     {
         question: "Which ancestor founded the Slytherin house?",
         choice1: "Godric Gryffindor",
         choice2: "Salazar Slytherin",
-        choice3: "Rowena Ravenclaw",
+        choice3: "Rowena Slytherin",
         choice4: "Helga Hufflepuff",
         answer: 2,
     },
@@ -108,7 +108,7 @@ let questions = [
         choice1: "Lucius Malfoy",
         choice2: "Antonin Dolohov",
         choice3: "Fenrir Greyback",
-        choice4: "Bellatrix Lestrange",
+        choice4: "Lord Voldemort",
         answer: 4,
     }
 ];

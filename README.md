@@ -120,6 +120,8 @@ Highscores page shows top 5 saved scores and player names.
 
 CSS on the main style.css file gave me error: 94 Parsningsfel [ .buttonDefault(disabled):hover]. I didnt get it to work so i removed it. Save button doesnt do anything anyways if there is no input on "enter your name" field.
 
+My daughter is a huge Harry Potter fan. She has been testing this quiz and gave me: 9/10 points. :) She also found questions with only incorrect answers.
+
 I ran the html files through the validator and got no errors.
 
 I also ran the css file through the W3C validator and it was flawless.
@@ -127,8 +129,6 @@ I also ran the css file through the W3C validator and it was flawless.
 - The website was constantly tested during development using Chrome dev tools.
 - Tested all links on all pages.
 - Tested the site opens in Chrome, Safari and Microsoft Edge without issues.
-
-My doughter is a huge Harry Potter fan. She has been testing this quiz and gave me: ?/10 points.
 
 ### Validator Testing
 
