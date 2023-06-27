@@ -114,6 +114,7 @@ Highscores page shows top 5 saved scores and player names.
 
 ### Future Features:
 
+- Save highscores to cloud and not only to cookies as it is now. This can be done, for example, with Google's cloud platform.
 - Background music (no autoplay).
 - Ability to change difficulty.
 
