@@ -126,6 +126,10 @@ input {
     border: none;
 }
 
+span {
+    font-size: 4.5rem;
+}
+
 /* Media Queries */
 @media screen and (max-width: 768px) {
 
@@ -134,6 +138,10 @@ input {
     }
 
     h1 {
+        font-size: 3rem;
+    }
+
+    span {
         font-size: 3rem;
     }
 
@@ -148,4 +156,19 @@ input {
         margin-bottom: 0;
     }
 
+    #username {
+        margin-bottom: 1rem;
+    }
+
+    h2 {
+        margin-bottom: 1rem;
+    }
+
+    h1 {
+        margin-bottom: 1rem;
+    }
+
+    span {
+        font-size: 3rem;
+    }
 }

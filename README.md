@@ -56,7 +56,7 @@ Harry Potter fans of all ages who want to put their knowledge to the test.
 
 ## Communication
 
-The website features a user-friendly interface to help visitors easily access Harry Potter Quiz.
+The website features a user-friendly interface to help visitors easily access Harry Potter Quiz. The user has an easy accesible button to start the quiz or see highscores.
 
 ## Current User Goals
 
