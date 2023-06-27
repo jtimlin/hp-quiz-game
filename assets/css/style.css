@@ -55,6 +55,7 @@ h2 {
     display: none;
 }
 
+/* Landing page CSS */
 #home {
     background: url('../images/magic-background.jpg') no-repeat center center;
     background-size: cover;
@@ -125,6 +126,7 @@ input {
     border: none;
 }
 
+/* Media Queries */
 @media screen and (max-width: 768px) {
 
     h2 {

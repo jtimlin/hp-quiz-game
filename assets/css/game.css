@@ -2,6 +2,7 @@ body {
     color: #2B3236;
 }
 
+/* Game Page CSS */
 .questionContainer {
     padding: 2rem 2.5rem;
     width: 100%;
@@ -72,6 +73,7 @@ body {
     text-align: center;
 }
 
+/* Progress Bar */
 #progressBar {
     width: 20rem;
     height: 2rem;
@@ -87,6 +89,7 @@ body {
     width: 0%;
 }
 
+/* Media Queries */
 @media screen and (max-width: 768px) {
 
     .container {

@@ -123,7 +123,7 @@ CSS on the main style.css file gave me error: 94 Parsningsfel [ .buttonDefault(d
 
 My highscores page didn't save scores. The fix to this problem was a single '.' missing before the 'join' command in the JavaScript file.
 
-My daughter is a huge Harry Potter fan. She has been testing this quiz and gave me: 9/10 points. :) She also found questions with only incorrect answers.
+My daughter is a huge Harry Potter fan. She has been testing this quiz and gave me: 9/10 points. :) She also found two questions with only incorrect answers.
 
 I ran the html files through the validator and got no errors.
 
