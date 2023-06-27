@@ -1,6 +1,7 @@
 # HARRY POTTER QUIZ
 
 This project serves as Portfolio Project #2 for Code Institute.
+Base code from: https://youtu.be/f4fB9Xg2JEY Quiz tutorial video by Brian Design on YouTube.
 
 ![Site view across devices](/assets/images-readme/devices-layout.png)
 
@@ -113,12 +114,14 @@ Highscores page shows top 5 saved scores and player names.
 
 ### Future Features:
 
-- Background music.
+- Background music (no autoplay).
 - Ability to change difficulty.
 
 ## Testing
 
 CSS on the main style.css file gave me error: 94 Parsningsfel [ .buttonDefault(disabled):hover]. I didnt get it to work so i removed it. Save button doesnt do anything anyways if there is no input on "enter your name" field.
+
+My highscores page didn't save scores. The fix to this problem was a single '.' missing before the 'join' command in the JavaScript file.
 
 My daughter is a huge Harry Potter fan. She has been testing this quiz and gave me: 9/10 points. :) She also found questions with only incorrect answers.
 
